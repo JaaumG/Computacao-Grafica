@@ -1,5 +1,6 @@
 import tkinter as tk
 
+
 class AplicativoReta:
     def __init__(self):
         # Criar a janela principal
@@ -19,8 +20,8 @@ class AplicativoReta:
         # Definir os vértices do triângulo usando listas
         self.vertices = [
             [-5, -5],  # Vértice 1
-            [5, -5],   # Vértice 2
-            [0, 5]     # Vértice 3
+            [5, -5],  # Vértice 2
+            [0, 5]  # Vértice 3
         ]
 
         # Criar os componentes da interface
@@ -85,6 +86,7 @@ class AplicativoReta:
 
     def executar(self):
         self.janela.mainloop()
+
 
 # Criar e executar a aplicação
 if __name__ == "__main__":

@@ -1,5 +1,6 @@
 import tkinter as tk
 
+
 class AplicativoReta:
     def __init__(self):
         # Criar a janela principal
@@ -45,8 +46,8 @@ class AplicativoReta:
     def desenhar_reta(self):
         # Pontos no sistema de coordenadas do mundo
         x1_mundo, y1_mundo = -5, -5  # Ponto inicial no mundo
-        x2_mundo, y2_mundo = 5, -5    # Ponto final no mundo
-        x3_mundo, y3_mundo = 0, 5    # Ponto final no mundo
+        x2_mundo, y2_mundo = 5, -5  # Ponto final no mundo
+        x3_mundo, y3_mundo = 0, 5  # Ponto final no mundo
 
         # Converter para coordenadas do dispositivo
         x1_dispositivo = self.mapear_x(x1_mundo)
@@ -67,10 +68,10 @@ class AplicativoReta:
                                 x3_dispositivo, y3_dispositivo,
                                 fill="blue", width=2)
 
-
     def executar(self):
         # Iniciar o loop principal da aplicação
         self.janela.mainloop()
+
 
 # Criar e executar a aplicação
 if __name__ == "__main__":

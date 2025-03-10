@@ -1,5 +1,6 @@
 import tkinter as tk
 
+
 class InterfaceGrafica:
     def __init__(self, root):
         self.root = root
@@ -62,6 +63,7 @@ class InterfaceGrafica:
 
     def normalizar_y(self, y_mundo):
         return (1 - (y_mundo - self.y_mundo_min) / (self.y_mundo_max - self.y_mundo_min)) * (self.canvas_altura - 1)
+
 
 # Criar a janela principal
 root = tk.Tk()

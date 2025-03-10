@@ -1,5 +1,6 @@
 import tkinter as tk
 
+
 class AplicativoReta:
     def __init__(self):
         # Criar a janela principal
@@ -27,6 +28,7 @@ class AplicativoReta:
     def executar(self):
         # Iniciar o loop principal da aplicação
         self.janela.mainloop()
+
 
 # Criar e executar a aplicação
 if __name__ == "__main__":
